@@ -1,1 +1,1 @@
-web: realworlddjango.wsgi --log-file -
+web: gunicorn realworlddjango.wsgi --log-file -
