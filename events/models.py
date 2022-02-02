@@ -24,8 +24,8 @@ class Event(models.Model):
 
 # модель Category
 class Category(models.Model):
-    title = models.CharField(max_length=200, default='',
-                             verbose_name='Название')
+    title = models.CharField(max_length=90, default='',
+                             verbose_name='Категория')
 
     class Meta:
         verbose_name_plural = 'Категории'  # форма единственного числа
